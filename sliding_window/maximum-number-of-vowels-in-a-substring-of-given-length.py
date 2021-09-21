@@ -12,6 +12,7 @@ class Solution:
         ans=max(ans,v)
         for char in range(len(s)-k):
             win+=s[char+k]
+            #check number of vowels in window
             if s[char] in vowels:
                 v-=1
             if s[char+k] in vowels:
