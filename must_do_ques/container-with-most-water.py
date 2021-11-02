@@ -12,3 +12,4 @@ class Solution:
         return area
             # area=max(area,height[p1]*height[p2])
             # if height[p1]>height[p2]:
+            
